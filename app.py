@@ -3,7 +3,7 @@ import random
 from enum import Enum
 
 
-def rps(name='PlayerOne'):
+def rps(name):
     game_count = 0
     player_wins = 0
     python_wins = 0
@@ -92,10 +92,10 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "-n", "--name", metavar="name",
-        required=True, help="The name of the person playing a game."
+        required=False, help="The name of the person playing a game."
     )
 
     args = parser.parse_args()
 
-    rock_paper_scissors = rps(args.name)
+    rock_paper_scissors = rps(args.name if args.name else "PlayerOne")
     rock_paper_scissors()  # Call the function to start the game
