@@ -7,10 +7,6 @@ This game supports personalized gameplay, multiple rounds, and tracks wins per s
 
 ## 🚀 How to Run
 
-You can run this project in **two ways**:
-
----
-
 1. **Clone the repository**:
 
    ```bash
