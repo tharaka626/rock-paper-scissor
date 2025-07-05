@@ -36,8 +36,23 @@ You can run this project in **two ways**:
 
 ### ✅ Option 2: Run Online with Gitpod
 
-Open this Gitpod link:  
+1. **Open this Gitpod link**:
+
 👉 https://tharaka626-rockpapersci-ullmu815jsy.ws-us120.gitpod.io/
+
+2. **Wait for the environment to set up and in a new terminal, run the script**:
+
+   ```bash
+       python app.py
+   ```
+
+   Or, run with your name as a parameter:
+
+   ```bash
+       python app.py -n "Your Name"
+   ```
+
+   The `-n` or `--name` flag lets you personalize your game experience.
 
 ---
 
