@@ -14,7 +14,7 @@ You can run this project in **two ways**:
 1. **Clone the repository**:
 
    ```bash
-       git clone https://github.com/YOUR_USERNAME/rock-paper-scissor.git
+       git clone https://github.com/tharaka626/rock-paper-scissor.git
        cd rock-paper-scissor
    ```
 
