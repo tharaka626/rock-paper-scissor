@@ -9,9 +9,6 @@ def rps(name):
     python_wins = 0
 
     def play_rps():
-        nonlocal name
-        nonlocal player_wins
-        nonlocal python_wins
 
         class RPS(Enum):
             ROCK = 1
@@ -34,7 +31,6 @@ def rps(name):
         print(f"Python chose {str(RPS(computer)).replace('RPS.', '')} .\n")
 
         def decide_winner(player, computer):
-            nonlocal name
             nonlocal player_wins
             nonlocal python_wins
 
